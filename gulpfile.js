@@ -9,10 +9,10 @@ const browsersync = require('browser-sync').create();
 
 // Sass task
 function scssTask() {
-    return src('./scss/*.scss', { sourcemaps: true})
+    return src('app/scss/*.scss', { sourcemaps: true})
     .pipe(sass())
     .pipe(postcss([autoprefixer(), cssnano()]))
-    .pipe(dest('./css', { sourcemaps: '.'}));
+    .pipe(dest('app/css/', { sourcemaps: '.'}));
 }
 
 // Browsersync
