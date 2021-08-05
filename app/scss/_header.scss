@@ -18,5 +18,9 @@
         font-size: 0.625rem;
         border: none;
         font-weight: bold;
-    }
+
+        &:hover {
+            color: $GrayishBlue;
+        }
+    } 
 }  

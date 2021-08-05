@@ -1,12 +1,14 @@
 .header_hero_container {
     padding: 1.6875rem 1rem 2.3125rem 1rem;
-    background: $VeryPaleCyan;
+    background-image: url(/images/bg-hero-mobile.svg);
+    background-color: $VeryPaleCyan;
     height: 45.0625rem;
 }
 
 .hero {
     text-align: center;
     height: 100%;
+    padding: 0 1.1875rem 0 1.1875rem;
 
     h1 {
         font-size: 1.5rem;  
@@ -26,6 +28,10 @@
         width: 15rem;
         height: 2.5rem;
         margin-bottom: 3.5rem;
+
+        &:hover {
+            background: hsl(321, 100%, 80%);
+        }
     }
 
     img {
