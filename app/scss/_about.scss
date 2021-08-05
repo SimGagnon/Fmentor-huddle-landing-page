@@ -4,14 +4,12 @@
     
     &__item {
         box-shadow: 0px 0px  14px rgba(0, 0, 0, 0.07);
-        padding: 1.5rem 2.5rem 2.0625rem 2.5rem;
+        padding: 0 2.5rem 0 2.5rem;
         border-radius: 1rem;
         height: 30.5rem;
 
-        
         img {
             width: 100%;
-            margin-bottom: 1.5rem;
         }
 
         h3 {
@@ -28,6 +26,34 @@
         &:not(:last-child) {
             margin-bottom: 2.5rem;
         }
+    }
 
+    .grow {
+        padding-top: 3.5rem;
+        padding-bottom: 2.0625rem;
+
+        img {
+            margin-bottom: 3.375rem;
+            width: 93%;
+        }
+    }
+
+    .flow {
+        padding-top: 4.1rem;
+        padding-bottom: 3.375rem;
+
+        img {
+            margin-bottom: 4.1rem;
+        }
+    }
+
+    .users {
+        padding-top: 3.729rem;
+        padding-bottom: 2.0625rem;
+
+        img {
+            margin-bottom: 3.729rem;
+            width: 95%;
+        }
     }
 }
