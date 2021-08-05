@@ -30,16 +30,16 @@ function browserSyncServer(cb) {
     });
     cb();
 }
-function browsserSyncReload(cb) {
+function browserSyncReload(cb) {
     browsersync.reload();
     cb();
 }
 
 // Watch Task
 function watchTask() {
-    watch('*.html', browsserSyncReload);
-    watch(['./scss/*.scss'],
-    series(scssTask, browsserSyncReload));
+    watch('*.html', browserSyncReload);
+    watch(['app/scss/**/*.scss'],
+    series(scssTask, browserSyncReload));
 }
 
 // Default Gulp Task

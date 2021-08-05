@@ -1,0 +1,34 @@
+.header_hero_container {
+    padding: 1.6875rem 1rem 2.3125rem 1rem;
+    background: $VeryPaleCyan;
+    height: 45.0625rem;
+}
+
+.hero {
+    text-align: center;
+    height: 100%;
+
+    h1 {
+        font-size: 1.5rem;  
+        margin-bottom: 1.5rem;  
+    }
+
+    p {
+        font-size: 1rem;
+        color: $VeryDarkCyan;
+        line-height: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    button {
+        background: $Pink;
+        color: white;
+        width: 15rem;
+        height: 2.5rem;
+        margin-bottom: 3.5rem;
+    }
+
+    img {
+        width: 100%;
+    }
+}

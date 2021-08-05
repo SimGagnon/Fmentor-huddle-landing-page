@@ -1,2 +1,4 @@
-@use 'globals';
-@use 'variables';
+@import 'variables';
+@import 'globals';
+@import 'header';  
+@import 'hero';   
