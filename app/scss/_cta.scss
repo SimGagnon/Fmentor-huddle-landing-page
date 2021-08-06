@@ -1,0 +1,22 @@
+.cta {
+    padding: 2.5625rem 0.75rem;
+    text-align: center;
+    box-shadow: 0px 0px  14px rgba(0, 0, 0, 0.07);
+
+    h2 {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+        line-height: 1.875rem;
+    }
+
+    button {
+        background: $Pink;
+        color: white;
+        width: 12.5rem;
+        height: 2.5rem;
+
+        &:hover {
+            background: hsl(321, 100%, 80%);
+        }
+    }
+}
