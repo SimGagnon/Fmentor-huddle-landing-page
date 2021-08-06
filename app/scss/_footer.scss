@@ -1,8 +1,50 @@
 .footer {
     background: $VeryDarkCyan;
     color: white;
+    font-size: 0.875rem;
+    padding: 8.6875rem 1rem 2.875rem 1.3125rem;
+
+    &__logo {
+        width: 50%;
+    }
 
     path {
         fill: white;
+    }
+
+    small {
+        text-align: center;
+        display: block;
+    }
+
+    &__contact {
+        margin-bottom: 2.5625rem;
+    }
+
+    &__nav {
+        margin-bottom: 1.5rem;
+        
+        li {
+            &:not(:last-child){
+                margin-bottom: 1rem;
+            }
+        }
+    }
+
+    &__socials {
+        text-align: center;
+        margin-bottom: 1.5rem;
+
+        ion-icon {
+            font-size: 2rem;
+
+            &:not(:nth-of-type(2)) {
+                margin-right: 0.709rem;
+            }
+
+            &:hover {
+                color: $Pink;
+            }
+        }
     }
 }

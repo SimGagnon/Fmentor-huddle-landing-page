@@ -1,22 +1,36 @@
+.cta__footer_container {
+    position: relative;
+}
+
 .cta {
-    padding: 2.5625rem 0.75rem;
     text-align: center;
-    box-shadow: 0px 0px  14px rgba(0, 0, 0, 0.07);
+    padding: 12px;
+    z-index: 5;
+    position: absolute;
+    top: -7.5rem;
 
-    h2 {
-        font-size: 2rem;
-        margin-bottom: 1.5rem;
-        line-height: 1.875rem;
-    }
+    &__container { 
+        box-shadow: 0px 0px  14px rgba(0, 0, 0, 0.07);
+        padding: 2.5625rem 0.75rem;
+        border-radius: 1rem;
+        background: white;
 
-    button {
-        background: $Pink;
-        color: white;
-        width: 12.5rem;
-        height: 2.5rem;
-
-        &:hover {
-            background: hsl(321, 100%, 80%);
+        h2 {
+            font-size: 1.125rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.875rem;
         }
+    
+        button {
+            background: $Pink;
+            color: white;
+            width: 12.5rem;
+            height: 2.5rem;
+    
+            &:hover {
+                background: hsl(321, 100%, 80%);
+            }
+        }
+
     }
 }

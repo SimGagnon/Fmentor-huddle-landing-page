@@ -24,6 +24,7 @@ h1,h2,h3,h4,h5 {
 
 a,a:visited,a:active {
     text-decoration: none;
+    color: inherit;
 }
 
 button {
@@ -31,4 +32,8 @@ button {
     font-family: $OpenSans;
     border: none;
     border-radius: 2rem;
+}
+
+li {
+    list-style: none;
 }
