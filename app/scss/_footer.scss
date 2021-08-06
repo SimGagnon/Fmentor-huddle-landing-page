@@ -5,7 +5,7 @@
     padding: 8.6875rem 1rem 2.875rem 1.3125rem;
 
     &__logo {
-        width: 50%;
+        margin-bottom: 1.5625rem;
     }
 
     path {
@@ -19,15 +19,32 @@
 
     &__contact {
         margin-bottom: 2.5625rem;
+
+        li {
+            display: flex;
+            align-items: center;
+
+            &:not(:last-child){
+                margin-bottom: 1.5rem;
+            }
+
+            img {
+                margin-right: 1rem;
+            }
+        }
     }
 
     &__nav {
         margin-bottom: 1.5rem;
         
         li {
-            
+
             &:not(:last-child){
                 margin-bottom: 1rem;
+            }
+
+            a:hover {
+                border-bottom: 1px white solid;
             }
 
         }
