@@ -2,39 +2,69 @@
     padding: 1.6875rem 1rem 2.3125rem 1rem;
     background-image: url(/images/bg-hero-mobile.svg);
     background-color: $VeryPaleCyan;
-    height: 45.0625rem;
 }
 
 .hero {
     text-align: center;
     height: 100%;
     padding: 0 1.1875rem 0 1.1875rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 
-    h1 {
-        font-size: 1.5rem;  
-        margin-bottom: 1.5rem;  
+    &__text {
+        text-align: left;
+
+        h1 {
+            font-size: 1.5rem;  
+            margin-bottom: 1.5rem;  
+        } 
+    
+        p {
+            font-size: 1rem;
+            color: $VeryDarkCyan;
+            line-height: 1.5rem;
+            margin-bottom: 2rem;
+        }
+    
+        button {
+            background: $Pink;
+            color: white;
+            width: 15rem;
+            height: 2.5rem;
+            margin-bottom: 3.5rem;
+    
+            &:hover {
+                background: hsl(321, 100%, 80%);
+            }
+        }
+
     }
 
-    p {
-        font-size: 1rem;
-        color: $VeryDarkCyan;
-        line-height: 1.5rem;
-        margin-bottom: 2rem;
-    }
+    &__image {
 
-    button {
-        background: $Pink;
-        color: white;
-        width: 15rem;
-        height: 2.5rem;
-        margin-bottom: 3.5rem;
-
-        &:hover {
-            background: hsl(321, 100%, 80%);
+        img {
+            width: 100%;
         }
     }
+}
 
-    img {
-        width: 100%;
+@media screen and (min-width: 50em) {
+
+    .hero {
+        flex-direction: row;
+
+        &__text {
+            margin-right: 3.375rem;
+
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            p {
+                font-size: 1.125rem;
+            }
+        }
     }
 }
