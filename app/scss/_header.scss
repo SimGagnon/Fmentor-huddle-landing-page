@@ -5,6 +5,7 @@
 
     &__logo {
         width: 30%;
+        max-width: 12.5rem;
 
         img {
             width: 100%;
@@ -18,9 +19,22 @@
         font-size: 0.625rem;
         border: none;
         font-weight: bold;
+        color: $VeryDarkCyan;
 
         &:hover {
             color: $GrayishBlue;
         }
     } 
 }  
+
+@media screen and (min-width: 50em) {
+
+    .header {
+        max-width: 80rem;
+        margin: 0 auto 4.4375rem;
+
+        button {
+            padding: 0.8125rem 4.0625rem 1rem 3.9375rem;
+        }
+    }
+}
