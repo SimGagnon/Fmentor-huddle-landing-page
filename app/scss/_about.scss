@@ -6,7 +6,7 @@
         box-shadow: 0px 0px  14px rgba(0, 0, 0, 0.07);
         padding: 0 2.5rem 0 2.5rem;
         border-radius: 1rem;
-        height: 30.5rem;
+        height: auto;
 
         img {
             width: 100%;
@@ -41,6 +41,7 @@
     .flow {
         padding-top: 4.1rem;
         padding-bottom: 3.375rem;
+        order: 2;
 
         img {
             margin-bottom: 4.1rem;
@@ -55,5 +56,38 @@
             margin-bottom: 3.729rem;
             width: 95%;
         }
+    }
+}
+
+
+// 800px
+@media screen and (min-width: 50em) {
+
+    .about {
+
+
+        &__item {
+            display: flex;
+            flex-direction: row;
+            text-align: left;
+            align-items: center;
+
+            &__img {
+                    background: red;
+            }
+
+
+            h3 {
+                font-size: 1.75rem;
+                line-height: 2.625rem;
+            }
+
+            p {
+                font-size: 1.125rem;
+                line-height: 1.6875rem;
+            }
+
+        }
+
     }
 }
