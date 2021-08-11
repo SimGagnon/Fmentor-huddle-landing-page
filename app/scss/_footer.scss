@@ -11,6 +11,10 @@
     path {
         fill: white;
     }
+    
+    p {
+        max-width: 21.1875rem;
+    }
 
     small {
         text-align: center;
@@ -65,5 +69,16 @@
                 color: $Pink;
             }
         }
+    }
+}
+
+// 800px
+@media screen and (min-width: 50em) {
+    .footer {
+        &__container {
+            max-width: 77.625rem;
+            display: flex;
+        }
+        
     }
 }

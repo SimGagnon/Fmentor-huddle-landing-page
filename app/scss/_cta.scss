@@ -31,6 +31,7 @@
             color: white;
             width: 12.5rem;
             height: 2.5rem;
+            font-size: 0.625rem;
     
             &:hover {
                 background: hsl(321, 100%, 80%);
@@ -45,6 +46,7 @@
 
     .cta {
         padding: 0;
+        top: -11.5rem;
 
         &__container { 
             padding: 3.52rem 0 3.25rem 0;
@@ -59,11 +61,8 @@
                 font-size: 1.25rem;
                 width: 25rem;
                 height: 5rem;
-
             }
-    
         }
-
     }
 
 }
