@@ -32,29 +32,42 @@
         padding-top: 3.5rem;
         padding-bottom: 2.0625rem;
 
-        img {
-            margin-bottom: 3.375rem;
-            width: 93%;
+        div:first-child {
+            order: 1;
+
+            img {
+                margin-bottom: 3.375rem;
+                width: 93%;
+            }
+
         }
     }
 
     .flow {
         padding-top: 4.1rem;
         padding-bottom: 3.375rem;
-        order: 2;
 
-        img {
-            margin-bottom: 4.1rem;
+        div:first-child {
+
+            img {
+                margin-bottom: 4.1rem;
+            }
         }
+
     }
 
     .users {
         padding-top: 3.729rem;
         padding-bottom: 2.0625rem;
 
-        img {
-            margin-bottom: 3.729rem;
-            width: 95%;
+        div:first-child {
+            order: 1;
+
+            img {
+                margin-bottom: 3.729rem;
+                width: 95%;
+            }
+
         }
     }
 }
@@ -71,11 +84,6 @@
             flex-direction: row;
             text-align: left;
             align-items: center;
-
-            &__img {
-                    background: red;
-            }
-
 
             h3 {
                 font-size: 1.75rem;
