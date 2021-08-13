@@ -78,12 +78,13 @@
 
     .about {
 
-
         &__item {
             display: flex;
             flex-direction: row;
             text-align: left;
             align-items: center;
+            max-width: 77rem;
+            margin: auto;
 
             h3 {
                 font-size: 1.75rem;
@@ -98,4 +99,69 @@
         }
 
     }
+}
+
+// 1100px +
+@media screen and (min-width: 68.75em) {
+
+    .about {
+
+        .users {
+            padding: 3.7875rem 1.61875rem  3.84375rem 7.5rem;
+    
+            div:first-child {
+    
+                img {
+                    display: block;
+                    margin-bottom: 0;
+                    max-width: 26.25rem;
+                    width: 100%;
+                }
+            }
+
+            p {
+                max-width: 29.8125rem;
+                margin-right: 11.1875rem;
+            }
+        }
+    
+        .flow {
+            padding: 4.42625rem 1.8125rem 4.49875rem 7.5381rem;
+    
+            div:first-child {
+    
+                img {
+                    display: block;
+                    margin-bottom: 0;
+                    max-width: 26.125rem;
+                    width: 100%;
+                    margin-right: 10.340625rem;
+                }
+            }
+
+            p {
+                max-width: 31.1875rem;
+            }
+        }
+
+        .grow {
+            padding: 3.33625rem 2rem 3.33625rem 7.5rem;
+    
+            div:first-child {
+    
+                img {
+                    margin-bottom: 0;
+                    width: 100%;
+                    max-width: 25.375rem;
+                }
+    
+            }
+
+            p {
+                margin-right: 11.5625rem;
+                max-width: 30.5rem;
+            }
+        }
+    }
+
 }
