@@ -5,7 +5,8 @@
     padding: 8.6875rem 1rem 2.875rem 1.3125rem;
 
     &__logo {
-        margin-bottom: 1.5625rem;
+        margin:  0 auto 1.5625rem ;
+        max-width: 77.625rem;
     }
 
     path {
@@ -79,17 +80,17 @@
 // 800px
 @media screen and (min-width: 50em) {
     .footer {
-        padding: 9rem 0rem 4rem 0rem;
+        padding: 9rem 2.5rem 4rem 2.5rem;
 
         &__container {
             max-width: 77.625rem;
             display: flex;
-            justify-content: center;
             margin: auto;
+            justify-content: space-between;
         }
 
         &__contact {
-            margin-right: 8.125rem;
+            margin-right: 2rem;
             margin-bottom: 0;
 
             li {
@@ -112,7 +113,22 @@
         &__nav {
             margin-bottom: 0;
             columns: 2;
+            
+            li {
+                margin-right: 1rem;
+            }
         }
         
+    }
+}
+
+// 1100px +
+@media screen and (min-width: 68.75em) {
+    .footer {
+        padding: 9rem 4.875rem 4rem 7.5rem;
+
+        &__contact {
+            margin-right: 8.125rem;
+        }
     }
 }
