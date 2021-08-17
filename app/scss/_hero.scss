@@ -1,6 +1,6 @@
 .header_hero_container {
     padding: 1.6875rem 1rem 2.3125rem 1rem;
-    background-image: url(/images/bg-hero-mobile.svg);
+    background-image: url(../../images/bg-hero-mobile.svg);
     background-color: $VeryPaleCyan;
 }
 
@@ -38,7 +38,6 @@
                 background: hsl(321, 100%, 80%);
             }
         }
-
     }
 
     &__image {
@@ -54,7 +53,7 @@
 @media screen and (min-width: 50em) {
 
     .header_hero_container {
-        background-image: url(/images/bg-hero-desktop.svg);
+        background-image: url(../../images/bg-hero-desktop.svg);
         background-color: $VeryPaleCyan;
         padding: 4.25rem 5rem 4.5rem 5rem;
     }
