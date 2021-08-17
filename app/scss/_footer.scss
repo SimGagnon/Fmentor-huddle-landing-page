@@ -82,6 +82,10 @@
     .footer {
         padding: 9rem 2.5rem 4rem 2.5rem;
 
+        &__logo {
+            margin-bottom: 2rem;
+        }
+
         &__container {
             max-width: 77.625rem;
             display: flex;
@@ -129,6 +133,12 @@
 
         &__contact {
             margin-right: 8.125rem;
+        }
+
+        &__nav {
+            li {
+                margin-right: 8.9375rem;
+            }
         }
     }
 }
