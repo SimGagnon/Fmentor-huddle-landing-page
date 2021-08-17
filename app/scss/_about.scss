@@ -1,9 +1,9 @@
 .about {
     text-align: center;
-    padding: 3.6875rem 1.25rem 14.3125rem 1.25rem ;
-    
+    padding: 3.6875rem 1.25rem 14.3125rem 1.25rem;
+
     &__item {
-        box-shadow: 0px 0px  14px rgba(0, 0, 0, 0.07);
+        box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.07);
         padding: 0 2.5rem 0 2.5rem;
         border-radius: 1rem;
         height: auto;
@@ -22,7 +22,7 @@
             font-size: 0.875rem;
             line-height: 1.3125rem;
         }
-        
+
         &:not(:last-child) {
             margin-bottom: 2.5rem;
         }
@@ -39,7 +39,6 @@
                 margin-bottom: 3.375rem;
                 width: 93%;
             }
-
         }
     }
 
@@ -53,7 +52,6 @@
                 margin-bottom: 4.1rem;
             }
         }
-
     }
 
     .users {
@@ -67,7 +65,6 @@
                 margin-bottom: 3.729rem;
                 width: 95%;
             }
-
         }
     }
 }
@@ -86,9 +83,7 @@
             align-items: center;
             max-width: 77rem;
             margin: auto;
-
         }
-
     }
 }
 
@@ -109,10 +104,10 @@
 
 
         .users {
-            padding: 3.7875rem 1.61875rem  3.84375rem 7.5rem;
-    
+            padding: 3.7875rem 1.61875rem 3.84375rem 7.5rem;
+
             div:first-child {
-    
+
                 img {
                     display: block;
                     margin-bottom: 0;
@@ -126,12 +121,12 @@
                 margin-right: 11.1875rem;
             }
         }
-    
+
         .flow {
             padding: 4.42625rem 1.8125rem 4.49875rem 7.5381rem;
-    
+
             div:first-child {
-    
+
                 img {
                     display: block;
                     margin-bottom: 0;
@@ -148,15 +143,14 @@
 
         .grow {
             padding: 3.33625rem 2rem 3.33625rem 7.5rem;
-    
+
             div:first-child {
-    
+
                 img {
                     margin-bottom: 0;
                     width: 100%;
                     max-width: 25.375rem;
                 }
-    
             }
 
             p {
@@ -165,5 +159,4 @@
             }
         }
     }
-
 }
